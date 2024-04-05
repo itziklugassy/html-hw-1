@@ -28,6 +28,14 @@ footer {
   
   /* Apply flash effect on button hover */
   .btn-flash:hover {
-    animation: flash 0.5s linear;
+    animation: flash 1.5s linear;
   }
   
+.row-custom-gap {
+    margin-right: -5px;
+    margin-left: -5px;
+}
+.row-custom-gap > [class^="col-"] {
+    padding-right: 5px;
+    padding-left: 5px;
+} 
